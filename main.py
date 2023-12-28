@@ -6,7 +6,7 @@ from openai import OpenAI
 
 
 gold = 20
-OPENAI_API_KEY = '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'
+OPENAI_API_KEY = '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'
 
 # template = """
 # You are a merchant selling to a traveler named Ren. You sell 4 items with prices varying from 1 gold to 20 gold.
@@ -18,7 +18,7 @@ OPENAI_API_KEY = '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'
 # 2. change the shop each time player asks for it.
 # 3. Don't sell the player anything he can't afford.
 
-# Here is the amount of gold the player owns: {gold}
+# Here is the amount of gold the player owns: {gold}gi
 # """
 
 client = OpenAI(
